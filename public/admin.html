@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Donut Shop Admin</title>
+    <link rel="stylesheet" href="admin_p.css">
+</head>
+
+<body>
+    <h1>Donut Shop Administration</h1>
+    <div>
+    <form id="create-donut-form">
+        <input type="text" id="name" name="name" placeholder="Name" required>
+        <textarea id="description" name="description" placeholder="Description" required></textarea>
+        <input type="number" id="price" name="price" placeholder="Price" required step="0.01">
+        <button type="submit">Add Donut</button>
+    </form>
+    </div>
+
+    <div>
+    <form id="update-donut-form">
+        <input type="number" id="update-id" name="id" placeholder="Donut ID" required>
+        <input type="text" id="update-name" name="name" placeholder="Name">
+        <textarea id="update-description" name="description" placeholder="Description"></textarea>
+        <input type="text" id="update-price" name="price" placeholder="Price">
+        <button type="submit">Update Donut</button>
+    </form>
+    </div>
+
+    <div>
+    <form id="delete-donut-form">
+        <input type="number" id="delete-id" name="id" placeholder="Donut ID" required>
+        <button type="submit">Delete Donut</button>
+    </form>
+    </div>
+
+    <div id="donuts-list"></div>
+</body>
+</html>

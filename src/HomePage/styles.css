@@ -1,0 +1,50 @@
+header {
+  background-color: rgb(251, 198, 204);
+  padding: 10px 0;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 75%; 
+  height: auto; 
+  margin: 0 auto; 
+  display: block; 
+  margin-top: 20px;
+}
+
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+footer {
+  background-color: pink;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative; 
+  margin-top: 20px;
+}
+
+.donut {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#donut-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

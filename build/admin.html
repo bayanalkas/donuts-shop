@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Donut Shop Admin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Donut Shop Administration</h1>
+
+    <!-- Create Donut Form -->
+    <form id="create-donut-form">
+        <input type="text" id="name" name="name" placeholder="Name" required>
+        <textarea id="description" name="description" placeholder="Description" required></textarea>
+        <input type="number" id="price" name="price" placeholder="Price" required>
+        <button type="submit">Add Donut</button>
+    </form>
+
+    <!-- Donuts List -->
+    <div id="donuts-list">
+        <!-- Dynamically populate donuts here -->
+    </div>
+
+    <!-- Include your admin_page.js here -->
+    <script src="js/admin_page.js"></script>
+</body>
+</html>
